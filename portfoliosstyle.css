@@ -1,0 +1,270 @@
+
+.nav-menu{
+	/*border: solid;*/
+	width: 98%;
+	background-color: #F1E2D7;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+ 
+
+}
+
+.menu2 {
+	display: flex;
+	list-style-type: none;
+    justify-content: space-between;
+    width: 46%;
+}
+.menu2  ul {
+	list-style: none;
+	
+}
+.menu2 a{
+    font-family: sans-serif; 
+    font-weight: bold;
+	text-decoration: none;
+
+
+}
+.nomportfolio a{
+	text-decoration: none;
+}
+
+.main-one{
+	background-color: #F1E2D7;
+	display: flex;
+	justify-content: stretch;
+	padding-top: 3%;
+	font-family: 'Fjalla One', sans-serif;
+}
+.main-one img{
+	width: 50%;
+}
+.text-one{
+	padding-top: 7%;
+	text-align: center;
+	width: 50%;
+	font-size:225%;
+}
+.titletext-one{
+	color: #9B9896;
+
+}
+.location-textone{
+	font-size: 150%;
+	padding-top: 5%;
+}
+.fonction-textone{
+	color: #9B9896;
+}
+/*------------------------main-tow----------------*/
+.my-skillstitle{
+	margin-top: 0%;
+    text-align: center;
+    font-size: 450%;
+    background-color: #E3AE57;
+    font-family: 'Roboto Slab', serif;
+}
+/*---------------skills-one--------------*/
+.skills-one {
+    display: flex;
+    justify-content: stretch;
+    background-color: #E9724C;
+    margin-top: -5%;
+    font-family: 'Roboto Slab', serif;
+}
+.text-skillsone{
+	text-align: center;
+    font-size: 150%;
+    padding: 3%;
+}
+/*------------skills-tow------------------*/
+.skills-tow{
+	display: flex;
+	padding: 3%;
+	background-color: black;
+}
+
+
+.text-skillstow{
+	color: white;
+	text-align: center;
+	 font-family: 'Fjalla One', sans-serif;
+	 line-height: 2;
+	 font-size: 120%;
+}
+/*--------------career-objective----------------*/
+.career-objective{
+	
+	color: gray;
+	display: flex;
+	justify-content: space-between;
+	font-family: fantasy;
+	text-align: center;
+	}
+	.title-carrerobjective{
+	    background-color: #DDEB7E;
+
+        font-size: 200%;
+	}
+	.text-career{
+	background-color: #DDEB7E;
+
+    width: 100%;
+    padding-top: 11%;
+   	font-size: 150%;
+
+
+	}
+
+	/*-----------------contact---------------------*/
+   .contact
+    {
+    font-size: 200%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+     }
+   
+       .contact a
+    {
+   
+    text-decoration: none;
+     }
+
+
+
+
+
+
+   
+@media only screen and (max-device-width: 480px) 
+	{
+
+		.nav-menu{
+	display: block;
+	width: 100%;
+	background-color: #F1E2D7;
+	font-size: 175%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+ 
+
+}
+.nomportfolio{
+	text-align: center;
+}
+.menu2 {
+	display: flex;
+    justify-content: space-between;
+    width: 94%;
+}
+.menu2  ul {
+	list-style: none;
+	
+}
+.menu2 a{
+    font-family: sans-serif; 
+    font-weight: bold;
+	text-decoration: none;
+
+
+}
+.nomportfolio a{
+	text-decoration: none;
+}
+/*--------------------------------*/
+.main-one{
+	background-color: #F1E2D7;
+	display: block;
+	
+	padding-top: 3%;
+	font-family: 'Fjalla One', sans-serif;
+}
+.main-one img{
+	width: 100%;
+}
+.text-one {
+    padding-top: 7%;
+    text-align: center;
+    width: 100%;
+    font-size: 225%;
+    padding-bottom: 11%;
+}
+.titletext-one{
+	color: #9B9896;
+
+}
+.location-textone{
+	font-size: 150%;
+	padding-top: 5%;
+}
+.fonction-textone{
+	color: #9B9896;
+}
+/*------------------------main-tow----------------*/
+.my-skillstitle{
+	margin-top: 0%;
+    text-align: center;
+    font-size: 450%;
+    background-color: #E3AE57;
+    font-family: 'Roboto Slab', serif;
+}
+/*---------------skills-one--------------*/
+.skills-one {
+    display: block;
+    margin-top: -10%;
+    }
+.text-skillsone{
+	text-align: center;
+    font-size: 150%;
+    padding: 3%;
+}
+.img-skillsone {
+    width: 100%;
+    margin-bottom: -12px;
+}
+/*------------skills-tow------------------*/
+.skills-tow{
+	display: block;
+	/*display: flex;*/
+	padding: 3%;
+	background-color: black;
+}
+
+
+.img2-skillstow{
+	margin-left: 5%;
+}
+/*--------------career-objective----------------*/
+.career-objective{
+	
+	
+	display: block;
+	
+	}
+	.title-carrerobjective{
+	   
+
+        font-size: 200%;
+	}
+	
+	.career-objective img{
+		width: 100%;
+	}
+
+	/*-----------------contact---------------------*/
+   .contact
+    {
+    font-size: 200%;
+    display: flex;
+    justify-content: space-around;
+     }
+   
+	}
